@@ -1,4 +1,3 @@
-<p align="center"> <img alt="logo" src="img/rick_and_morty.png" width=600 /> <h1 align="center">Rick LLM</h1> <h3 align="center">Make Llama 3.1 8B talk like Rick Sanchez</h3> </p> <p align="center"> <i>Built by following the amazing tutorial by <a href="https://github.com/neural-maze">The Neural Maze</a></i> </p>
 🚀 What is Rick LLM?
 Rick LLM is a fun and educational project where you fine-tune Llama 3.1 8B to speak in Rick Sanchez’s chaotic, sarcastic style. You'll:
 
