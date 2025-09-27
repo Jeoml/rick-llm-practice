@@ -7,6 +7,8 @@ requires-python = ">=3.12"
 dependencies = [
     "bitsandbytes==0.42.0",
     "datasets>=3.2.0",
+    "fastapi>=0.104.1",
+    "httpx>=0.25.0",
     "openai>=1.58.1",
     "pre-commit>=4.0.1",
     "python-dotenv>=1.0.1",
@@ -15,4 +17,5 @@ dependencies = [
     "tqdm>=4.67.1",
     "transformers>=4.47.1",
     "trl>=0.13.0",
+    "uvicorn[standard]>=0.24.0",
 ]

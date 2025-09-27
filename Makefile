@@ -43,3 +43,15 @@ terminate-instance:
 download-model:
 	echo "Downloading model files"
 	python src/download_model.py
+
+install-api-deps:
+	echo "Installing API dependencies"
+	pip install fastapi httpx uvicorn[standard]
+
+start-api:
+	echo "Starting Rick LLM API server"
+	python start_api.py
+
+test-api:
+	echo "Testing Rick LLM API"
+	python test_api.py
